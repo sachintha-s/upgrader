@@ -631,7 +631,7 @@ class UpgraderMessages {
         break;
       case 'en':
       default:
-        message = 'UPDATE NOW';
+        message = 'PLEASE UPGRADE NOW';
         break;
     }
     return message;
@@ -756,7 +756,7 @@ class UpgraderMessages {
         break;
       case 'en':
       default:
-        message = 'Would you like to update it now?';
+        message = '';
         break;
     }
     return message;
@@ -967,7 +967,7 @@ class UpgraderMessages {
         break;
       case 'en':
       default:
-        message = 'Update App?';
+        message = 'Update App';
         break;
     }
     return message;
