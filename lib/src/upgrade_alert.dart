@@ -332,9 +332,10 @@ class UpgradeAlertState extends State<UpgradeAlert> {
           mainAxisSize: MainAxisSize.min,
           children: <Widget>[
             Text(message),
-            Padding(
-                padding: const EdgeInsets.only(top: 15.0),
-                child: Text(messages.message(UpgraderMessage.prompt) ?? '')),
+            SizedBox(height: 12),
+            // Padding(
+            //     padding: const EdgeInsets.only(top: 15.0),
+            //     child: Text(messages.message(UpgraderMessage.prompt) ?? '')),
             if (notes != null) notes,
           ],
         )));
